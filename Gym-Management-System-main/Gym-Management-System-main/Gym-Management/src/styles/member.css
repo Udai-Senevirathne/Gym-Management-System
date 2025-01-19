@@ -1,0 +1,117 @@
+/* General Styles */
+.add-member-container {
+    width: 100%;
+    max-width: none; /* Full width for responsiveness */
+    margin: 0 auto;
+    padding: 2rem;
+    /*background-color: #004fff; !* Background color *!*/
+    border-radius: 20px; /* Rounded corners */
+    /*box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);*/
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1; /* Stretches to fill available space */
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #27374d;
+    margin-bottom: 2rem;
+}
+
+.add-member-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+    color: #27374d;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    color: #27374d;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #27374d;
+    outline: none;
+}
+
+.submit-btn {
+    padding: 1rem;
+    background-color: #27374d;
+    color: #dde6ed;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #1b2531;
+}
+
+
+@media (max-width: 768px) {
+    .add-member-container {
+        padding: 1.5rem; /* Reduce padding for smaller screens */
+        border-radius: 15px; /* Slightly smaller border radius */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller heading size */
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 0.7rem;
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+
+    .submit-btn {
+        padding: 0.8rem; /* Adjust button padding */
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .add-member-container {
+        padding: 1rem; /* Further reduce padding for very small screens */
+        border-radius: 10px; /* Even smaller border radius */
+    }
+
+    h2 {
+        font-size: 1.25rem; /* Smaller heading size */
+        margin-bottom: 1rem;
+    }
+
+    .form-group input,
+    .form-group select {
+        padding: 0.6rem;
+        font-size: 0.8rem; /* Smaller font size */
+    }
+
+    .submit-btn {
+        padding: 0.7rem; /* Adjust button padding */
+        font-size: 0.85rem; /* Smaller font size */
+    }
+}

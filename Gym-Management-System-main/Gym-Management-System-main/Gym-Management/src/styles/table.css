@@ -1,0 +1,96 @@
+.view-attendance-container {
+    padding: 20px;
+    /*background-color: #0000ec;*/
+    font-family: 'Arial', sans-serif;
+}
+
+.content--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header--title {
+    font-size: 2em;
+    color: #333;
+}
+
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.attendance-table th {
+    background-color: #6c7ae0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+.attendance-table td {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.attendance-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.edit-button {
+    padding: 10px 20px;
+    background-color: #6c7ae0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #5765c1;
+}
+
+.no-data {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+
+.delete-button {
+    padding: 10px 20px;
+    background-color: #6c7ae0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #5765c1;
+}

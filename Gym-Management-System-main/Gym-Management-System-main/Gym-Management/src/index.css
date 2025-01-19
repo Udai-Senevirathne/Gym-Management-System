@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'sf', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+@font-face {
+  font-family: 'sf';
+  src: url('./components/fonts/AnyConv.com__SFPRODISPLAYBOLD.woff2') format('woff2'),
+  url('./components/fonts/AnyConv.com__SFPRODISPLAYBOLD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

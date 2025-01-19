@@ -1,0 +1,65 @@
+.view-attendance-container {
+    /*background: #9ea9c1;*/
+    flex: 1;
+    border-radius: 20px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header--title {
+    color: #27374d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    flex-grow: 0.1; /* Allows the title to take up available space */
+    text-align: center; /* Center the title within its available space */
+}
+
+.search-box {
+    position: relative;
+    width: 300px;
+    margin-left: auto; /* Pushes the search box to the right */
+    margin-right: 35px; /* Moves the search box slightly to the left */
+}
+
+.search-box input {
+    width: 100%; /* Ensure the input field takes up the full width of the search box */
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #27374d;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f6f9;
+    outline: none;
+}
+
+.search-box .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #27374d;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.table-container {
+    width: 100%;
+    min-width: 600px;
+    padding: 0.2rem;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(136, 75, 75, 0.1);
+}

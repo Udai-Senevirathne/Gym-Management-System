@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: 'sf', Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+  font-family: 'sf', Arial, sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+  font-family: 'sf', Arial, sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: 'sf';
+  src: url('./components/fonts/AnyConv.com__SFPRODISPLAYBOLD.woff2') format('woff2'),
+  url('./components/fonts/AnyConv.com__SFPRODISPLAYBOLD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
